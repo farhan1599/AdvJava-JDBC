@@ -19,7 +19,7 @@ public class Insert_Emp {
              statement=connection.createStatement();
              String query="insert into emp values(1575,'Head',5550.0,'15-MAY-99',40)";
              int count=statement.executeUpdate(query);
-             System.out.println(count+" rows inserted");
+             System.out.println(count+" rows are inserted");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
